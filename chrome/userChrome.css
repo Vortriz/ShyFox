@@ -9,3 +9,9 @@
 @import url("ShyFox/shy-compact.css");
 @import url("ShyFox/shy-icons.css");
 @import url("ShyFox/shy-floating-search.css");
+
+/* additional fixes */
+
+:root {
+    --toolbar-bgcolor: rgb(28, 27, 34) !important;
+}
