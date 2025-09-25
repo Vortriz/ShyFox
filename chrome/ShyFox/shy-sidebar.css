@@ -60,12 +60,6 @@ Styles for sidebar
 
 /* styles for sidebar */
 #sidebar-box{
-  
-  top: calc(
-    var(--margin) / 2 
-    + var(--bookmarks-hgt)
-  );
-
   height: calc(
     100vh
     - var(--margin) * 2

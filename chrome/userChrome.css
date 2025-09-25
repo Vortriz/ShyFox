@@ -15,3 +15,7 @@
 :root {
     --toolbar-bgcolor: rgb(28, 27, 34) !important;
 }
+
+#PersonalToolbar {
+    display: none;
+}
