@@ -10,7 +10,7 @@ Styles for sidebar
 /* reserve space for bookmarks toolbar */
 :root{
   --little-gap: calc(var(--margin) / 1.5);
-  --bookmarks-hgt: var(--toolbar-item-hgt);
+  --bookmarks-hgt: 0px;
 }
 
 /* remove space reserved for bookmarks toolbar if it hidden */
@@ -60,12 +60,6 @@ Styles for sidebar
 
 /* styles for sidebar */
 #sidebar-box{
-  
-  top: calc(
-    var(--margin) / 2 
-    + var(--bookmarks-hgt)
-  );
-
   height: calc(
     100vh
     - var(--margin) * 2
