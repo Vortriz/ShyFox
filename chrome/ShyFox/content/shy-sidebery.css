@@ -9,6 +9,15 @@ Styles for Sidebery extension
 
 
 @-moz-document regexp("^moz-extension://.*?/sidebar/sidebar.html"){ /* wrap start */
+    
+  #root {
+    --toolbar-bg: transparent !important;
+    --frame-bg: transparent !important;
+  }
+    
+  :root {
+    background-color: transparent !important;
+  }
 
   #root.root {
     --general-border-radius: var(--rounding) !important;
