@@ -21,3 +21,9 @@
 #PersonalToolbar {
     display: none;
 }
+
+/* some sites dont have a background color
+welp, get flashed everytime */
+.browserContainer {
+    background: #ffffff !important;
+}
