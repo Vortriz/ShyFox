@@ -397,12 +397,12 @@ Styles when Sidebery is not opened
   #sidebar {border-radius: var(--big-rounding) !important;}
   
   /* sidebar on left (native tabs disabled, default) */
-  &:has(#sidebar-box[style*="order: 2"]){
+  &:has(#sidebar-box:not([sidebar-positionend])){
     /* there is no styles */
   }
   
   /* sidebar on right (native tabs enabled) */
-  &:has(#sidebar-box[style*="order: 4"]){
+  &:has(#sidebar-box[sidebar-positionend]){
     
     /* add checkmark to button to indicate state */
     #sidebarMenu-popup #sidebar-reverse-position {background-image: url("../icons/menu-check.svg") !important;}
